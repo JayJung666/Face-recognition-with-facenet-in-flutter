@@ -342,9 +342,9 @@ class _FaceVerificationAppState extends State<FaceVerificationApp> {
       case 0:
         return 'Langkah 1: Pilih gambar referensi dari galeri';
       case 1:
-        return 'Langkah 2: Ambil gambar wajah untuk verifikasi';
+        return 'Langkah 2: Ambil gambar wajah untuk validasi';
       case 2:
-        return 'Langkah 3: Hasil verifikasi wajah';
+        return 'Langkah 3: Hasil validasi wajah';
       default:
         return '';
     }
@@ -354,7 +354,7 @@ class _FaceVerificationAppState extends State<FaceVerificationApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Aplikasi Verifikasi Wajah'),
+        title: const Text('Prototype face validation CatchU'),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
